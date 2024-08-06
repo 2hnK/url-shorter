@@ -31,8 +31,9 @@ public class All {
 
     @Transactional
     public void work1() {
-        if (memberService.count() > 0) return;
+        log.debug("initAll Started");
 
+        if (memberService.count() > 0) return;
         Member memberSystem = memberService.join("system", "1234", "시스템").getData();
         Member memberAdmin = memberService.join("admin", "1234", "관리자").getData();
 
