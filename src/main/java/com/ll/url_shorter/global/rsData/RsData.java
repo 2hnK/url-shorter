@@ -1,7 +1,7 @@
-package com.ll.demo03.global.rsData;
+package com.ll.url_shorter.global.rsData;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.ll.demo03.standard.dto.Empty;
+import com.ll.url_shorter.standard.dto.Empty;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

@@ -1,4 +1,4 @@
-package com.ll.demo03.global.jpa.entity;
+package com.ll.url_shorter.global.jpa.entity;
 
 import jakarta.persistence.EntityListeners;
 import jakarta.persistence.MappedSuperclass;
@@ -21,6 +21,9 @@ public abstract class BaseTime extends BaseEntity {
     @LastModifiedDate
     private LocalDateTime modifyDate;
 
+    public void setCreated() {
+        setCreateDate(LocalDateTime.now());
+    }
     public void setModified() {
         setModifyDate(LocalDateTime.now());
     }

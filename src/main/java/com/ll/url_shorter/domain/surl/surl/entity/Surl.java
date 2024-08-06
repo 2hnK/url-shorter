@@ -1,8 +1,8 @@
-package com.ll.demo03.domain.surl.surl.entity;
+package com.ll.url_shorter.domain.surl.surl.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.ll.demo03.domain.member.member.entity.Member;
-import com.ll.demo03.global.jpa.entity.BaseTime;
+import com.ll.url_shorter.domain.member.member.entity.Member;
+import com.ll.url_shorter.global.jpa.entity.BaseTime;
 import jakarta.persistence.Entity;
 import jakarta.persistence.ManyToOne;
 import lombok.*;

@@ -1,6 +1,6 @@
-package com.ll.demo03.domain.member.member.entity;
+package com.ll.url_shorter.domain.member.member.entity;
 
-import com.ll.demo03.global.jpa.entity.BaseTime;
+import com.ll.url_shorter.global.jpa.entity.BaseTime;
 import jakarta.persistence.Entity;
 import lombok.*;
 

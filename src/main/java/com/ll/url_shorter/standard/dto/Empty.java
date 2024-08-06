@@ -1,4 +1,4 @@
-package com.ll.demo03.standard.dto;
+package com.ll.url_shorter.standard.dto;
 
 public class Empty {
 }

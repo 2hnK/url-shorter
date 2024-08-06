@@ -1,9 +1,9 @@
-package com.ll.demo03.domain.member.member.service;
+package com.ll.url_shorter.domain.member.member.service;
 
-import com.ll.demo03.domain.member.member.entity.Member;
-import com.ll.demo03.domain.member.member.repository.MemberRepository;
-import com.ll.demo03.global.exceptions.GlobalException;
-import com.ll.demo03.global.rsData.RsData;
+import com.ll.url_shorter.domain.member.member.entity.Member;
+import com.ll.url_shorter.domain.member.member.repository.MemberRepository;
+import com.ll.url_shorter.global.exceptions.GlobalException;
+import com.ll.url_shorter.global.rsData.RsData;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -16,7 +16,7 @@ import java.util.Optional;
 public class MemberService {
     private final MemberRepository memberRepository;
 
-    private Optional<Member> findByUsername(String username) {
+    public Optional<Member> findByUsername(String username) {
         return memberRepository.findByUsername(username);
     }
 
@@ -39,5 +39,9 @@ public class MemberService {
 
     public Member getReferenceById(long id) {
         return memberRepository.getReferenceById(id);
+    }
+
+    public long count() {
+        return memberRepository.count();
     }
 }

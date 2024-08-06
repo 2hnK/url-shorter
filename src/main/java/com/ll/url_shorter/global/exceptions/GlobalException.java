@@ -1,7 +1,7 @@
-package com.ll.demo03.global.exceptions;
+package com.ll.url_shorter.global.exceptions;
 
-import com.ll.demo03.global.rsData.RsData;
-import com.ll.demo03.standard.dto.Empty;
+import com.ll.url_shorter.global.rsData.RsData;
+import com.ll.url_shorter.standard.dto.Empty;
 import lombok.Getter;
 
 @Getter

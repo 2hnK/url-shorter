@@ -1,9 +1,9 @@
-package com.ll.demo03.domain.surl.surl.service;
+package com.ll.url_shorter.domain.surl.surl.service;
 
-import com.ll.demo03.domain.member.member.entity.Member;
-import com.ll.demo03.domain.surl.surl.entity.Surl;
-import com.ll.demo03.domain.surl.surl.repository.SurlRepository;
-import com.ll.demo03.global.rsData.RsData;
+import com.ll.url_shorter.domain.member.member.entity.Member;
+import com.ll.url_shorter.domain.surl.surl.entity.Surl;
+import com.ll.url_shorter.domain.surl.surl.repository.SurlRepository;
+import com.ll.url_shorter.global.rsData.RsData;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -29,6 +29,8 @@ public class SurlService {
                 .url(url)
                 .build();
 
+        surl.setModified();
+        surl.setCreated();
         surlRepository.save(surl);
 
         return RsData.of("%d번 URL이 생성되었습니다.".formatted(surl.getId()), surl);

@@ -1,7 +1,7 @@
-package com.ll.demo03.global.rq;
+package com.ll.url_shorter.global.rq;
 
-import com.ll.demo03.domain.member.member.entity.Member;
-import com.ll.demo03.domain.member.member.service.MemberService;
+import com.ll.url_shorter.domain.member.member.entity.Member;
+import com.ll.url_shorter.domain.member.member.service.MemberService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 import org.springframework.web.context.annotation.RequestScope;

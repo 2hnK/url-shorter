@@ -1,9 +1,9 @@
-package com.ll.demo03.domain.article.article.service;
+package com.ll.url_shorter.domain.article.article.service;
 
-import com.ll.demo03.domain.article.article.entity.Article;
-import com.ll.demo03.domain.article.article.repository.ArticleRepository;
-import com.ll.demo03.domain.member.member.entity.Member;
-import com.ll.demo03.global.rsData.RsData;
+import com.ll.url_shorter.domain.article.article.entity.Article;
+import com.ll.url_shorter.domain.article.article.repository.ArticleRepository;
+import com.ll.url_shorter.domain.member.member.entity.Member;
+import com.ll.url_shorter.global.rsData.RsData;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

@@ -1,4 +1,4 @@
-package com.ll.demo03.global.jpa.entity;
+package com.ll.url_shorter.global.jpa.entity;
 
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
