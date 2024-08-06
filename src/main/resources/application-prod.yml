@@ -2,7 +2,7 @@ server:
   port: 8090
 spring:
   datasource:
-    url: jdbc:postgresql://jhs512-db.internal:5432/surl_prod
+    url: jdbc:postgresql://2hnk-db.internal:5432/surl_prod
     username: postgres
     password: YUMTHZX4ceEa26a
     driver-class-name: org.postgresql.Driver
